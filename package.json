@@ -1,0 +1,46 @@
+{
+  "name": "react-sean",
+  "version": "1.0.0",
+  "description": "A #SillySiteChallenge for reactions",
+  "main": "index.js",
+  "scripts": {
+    "clean": "gatsby clean",
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "prettier": "prettier --config ./.prettierrc.js --ignore-path ./.prettierignore --write \"**/*.{json,js,ts,tsx,mdx}\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run prettier",
+      "pre-push": ""
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulieScanlon/react-sean.git"
+  },
+  "keywords": [
+    "React"
+  ],
+  "author": "Paul Scanlon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PaulieScanlon/react-sean/issues"
+  },
+  "homepage": "https://github.com/PaulieScanlon/react-sean#readme",
+  "dependencies": {
+    "@emotion/react": "^11.1.2",
+    "gatsby": "^2.26.1",
+    "gatsby-plugin-theme-ui": "^0.3.0",
+    "husky": "^4.3.6",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "theme-ui": "^0.3.4"
+  },
+  "devDependencies": {
+    "@types/theme-ui": "^0.3.7",
+    "prettier": "^2.2.1"
+  }
+}
