@@ -28,8 +28,8 @@ export default {
       height: 300,
     },
     image: {
-      width: 148,
-      height: 148,
+      width: 150,
+      height: 150,
     },
     canvas: 300,
   },

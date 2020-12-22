@@ -75,6 +75,7 @@ export const CamSnapper: FunctionComponent = () => {
 
   const handleLocalPost = () => {
     clearCanvas()
+    console.log(JSON.stringify(images))
     dispatch({
       type: IActionTypes.images,
       payload: images,

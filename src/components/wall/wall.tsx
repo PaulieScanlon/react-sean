@@ -26,11 +26,11 @@ export const Wall: FunctionComponent = () => {
             position: 'relative',
             borderRadius: '100%',
             overflow: 'hidden',
-            width: `${sizes.image.width / 2}px`,
-            height: `${sizes.image.height / 2}px`,
+            width: `${sizes.image.width}px`,
+            height: `${sizes.image.height}px`,
           }}
         >
-          <ImageAnimator images={localImages} width={sizes.image.width / 2} height={sizes.image.height / 2} />
+          <ImageAnimator images={localImages} width={sizes.image.width} height={sizes.image.height} />
         </Box>
       ) : null}
     </Grid>
